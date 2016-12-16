@@ -1,0 +1,27 @@
+# Site
+title: OLF
+subtitle: Object Liberation Front
+
+# URL
+url: http://olf.space
+baseurl: /
+permalink: post/:title/
+
+# Build settings
+markdown: kramdown
+port: 4444
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Data
+social:
+  facebook_url: "https://www.facebook.com/thiago.hersan"
+  twitter_url: "https://www.twitter.com/thiagohersan"
+  twitter_user: "@thiagohersan"
