@@ -9,8 +9,10 @@ $menu-link-mobile: 1em;
 
 $home-title-size: 1.8rem;
 
-$project-title-size: 1.5rem;
-$text-size: 1.2rem;
+$post-title-size: 2.3rem;
+$post-subtitle-size: 1.5rem;
+
+$text-size: 1.1rem;
 $detail-size: 1.1rem;
 $code-responsive-size: 2.5vw;
 
@@ -99,8 +101,20 @@ $code-responsive-size: 2.5vw;
   }
 
   #post {
-    .content-title {
-      font: bold $project-title-size $family-sans;
+    .post-title {
+      font: bold $post-title-size $family-sans;
+      color: $TITLE-COLOR;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .post-date {
+      font-size: $detail-size;
+      font-weight: 100;
+    }
+
+    .post-subtitle {
+      font: bold $post-subtitle-size $family-sans;
       color: $TITLE-COLOR;
     }
 

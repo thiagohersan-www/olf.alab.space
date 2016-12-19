@@ -105,7 +105,14 @@ body {
 
 #post {
   width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5% 7%;
   background-color: $TEXT-BACKGROUND;
+
+  .post-subtitle {
+    margin: 32px 0;
+  }
 
   @include media-query(THREE) {
     max-width: $three_columns;
