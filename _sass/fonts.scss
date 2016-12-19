@@ -113,15 +113,6 @@ $code-responsive-size: 2.5vw;
     }
   }
 
-  code {
-    white-space: pre;
-    background-color: #000;
-    color: #0f0;
-    @include media-query(THREE) {
-      font-size: $text-size;
-    }
-  }
-
   #post-list {
     .post-title-container {
       font: normal $home-title-size $family-sans;
