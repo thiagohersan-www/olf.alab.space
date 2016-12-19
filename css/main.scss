@@ -109,6 +109,7 @@ body {
   box-sizing: border-box;
   padding: 5% 7%;
   background-color: $TEXT-BACKGROUND;
+  margin-bottom: $MENU-VERTICAL-MARGIN;
 
   .post-subtitle {
     margin: 32px 0;
@@ -118,16 +119,12 @@ body {
     max-width: $three_columns;
   }
 
-  .img-mp3-container {
-    margin-bottom: 1em;
+  #rt-footer-hr {
+    margin: $LIST-VERTICAL-SPACING 0;
+  }
 
-    p {
-      margin-bottom: 0;
-    }
-
-    audio {
-      width: 100%;
-    }
+  audio {
+    width: 100%;
   }
 
   img {
