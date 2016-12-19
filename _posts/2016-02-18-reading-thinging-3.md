@@ -1,6 +1,7 @@
 ---
 title: 'Reading & Thinging #3'
 subtitle: 'On Action, Post-Internets and Umwelts'
+header: /assets/posts/reading-thinging-3/rt300.jpg
 date: 2016-02-18T23:48:29+00:00
 categories: event rt
 ---

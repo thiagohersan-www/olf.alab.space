@@ -1,5 +1,10 @@
 {% include navbar.html %}
 <div id="main-div">
+  {% if page.header %}
+    <div id="post-image-header">
+      <img src={{ page.header }}>
+    </div>
+  {% endif %}
   <div id="post">
     <div class="content-title">{{ page.title }}</div>
     <content>

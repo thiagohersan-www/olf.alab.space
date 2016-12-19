@@ -1,6 +1,7 @@
 ---
 title: 'Reading & Thinging #2'
 subtitle: 'On Parapoetics and Paramechanics'
+header: /assets/posts/reading-thinging-2/rt200.jpg
 date: 2016-01-28T16:39:02+00:00
 categories: event rt
 ---

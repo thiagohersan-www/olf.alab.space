@@ -1,6 +1,7 @@
 ---
 title: 'Reading & Thinging #7'
 subtitle: 'On Post Humanism'
+header: /assets/posts/reading-thinging-7/rt700.jpg
 date: 2016-10-31T11:07:45+00:00
 categories: event rt
 ---

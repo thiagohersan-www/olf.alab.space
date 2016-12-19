@@ -1,6 +1,7 @@
 ---
 title: 'Reading & Thinging #1'
 subtitle: 'On Reflection, Refraction and Diffraction'
+header: /assets/posts/reading-thinging-1/rt104.jpg
 date: 2015-12-16T23:46:57+00:00
 categories: event rt
 ---

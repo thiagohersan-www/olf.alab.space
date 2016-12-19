@@ -1,6 +1,7 @@
 ---
 title: 'Reading & Thinging #5'
 subtitle: 'On emotional labour, private life, art and politics'
+header: /assets/posts/reading-thinging-5/rt505.jpg
 date: 2016-06-23T13:36:25+00:00
 categories: event rt
 ---

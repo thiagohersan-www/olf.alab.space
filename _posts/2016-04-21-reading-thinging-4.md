@@ -1,6 +1,7 @@
 ---
 title: 'Reading & Thinging #4'
 subtitle: 'On Technoxamanism and Technomagic'
+header: /assets/posts/reading-thinging-4/rt401.jpg
 date: 2016-04-21T18:28:34+00:00
 categories: event rt
 ---

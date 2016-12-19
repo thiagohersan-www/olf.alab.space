@@ -1,6 +1,7 @@
 ---
 title: 'Reading & Thinging #8'
 subtitle: 'On Syntegrity'
+header: /assets/posts/reading-thinging-8/rt806.jpg
 date: 2016-12-12T13:20:53+00:00
 categories: event rt
 ---

@@ -1,6 +1,7 @@
 ---
 title: Liverpool Observatory
 artist: Sam Skinner
+header: /assets/posts/liverpool-observatory/livob00.jpg
 date: 2016-02-10T20:00:31+00:00
 categories: project
 ---

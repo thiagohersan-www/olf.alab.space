@@ -1,6 +1,7 @@
 ---
 title: Simple Machines
 artist: Alex Pearl
+header: /assets/posts/ob-ject-and-ob-serve/obob00.jpg
 date: 2016-02-10T19:00:28+00:00
 categories: project
 ---

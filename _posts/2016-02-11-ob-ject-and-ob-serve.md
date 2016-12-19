@@ -1,5 +1,6 @@
 ---
 title: 'Ob_ject and Ob_serve'
+header: /assets/posts/ob-ject-and-ob-serve/obob11.jpg
 date: 2016-02-11T12:00:51+00:00
 categories: event
 ---

@@ -1,6 +1,7 @@
 ---
 title: 'Reading & Thinging #6'
 subtitle: 'On humour and time'
+header: /assets/posts/reading-thinging-6/rt600.jpg
 date: 2016-08-25T12:54:56+00:00
 categories: event rt
 ---

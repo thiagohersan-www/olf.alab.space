@@ -131,6 +131,23 @@ body {
   }
 }
 
+#post-image-header {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  max-height: 150px;
+
+  @include media-query(THREE) {
+    max-width: $three_columns;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    margin-top: -33%;
+  }
+}
+
 #home-header {
   width: 100%;
   .video-wrapper {
