@@ -1,0 +1,152 @@
+@import 'constants';
+
+$family-sans: 'Raleway', 'Arial';
+$family-mono: 'Source Code Pro', 'Courier New';
+
+$menu-title-size: 1.5em;
+$menu-link-desktop: 0.8em;
+$menu-link-mobile: 1em;
+
+$home-title-size: 1.8rem;
+
+$project-title-size: 1.5rem;
+$text-size: 1.2rem;
+$detail-size: 1.1rem;
+$code-responsive-size: 2.5vw;
+
+@mixin fonts {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-size: 14px;
+    @include media-query(THREE) { 
+      font-size: 16px;
+    }
+  }
+
+  body {
+    font: normal $text-size $family-sans;
+    color: $TEXT-COLOR;
+  }
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.5rem; }
+  h3 { font-size: 1.17rem; }
+  h4 { font-size: 1.12rem; }
+  h5 { font-size: .83rem; }
+  h6 { font-size: .75rem; }
+
+  p {
+    font: normal $text-size $family-sans;
+    word-spacing: 4px;
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  s {
+    text-decoration:line-through;
+  }
+
+  a {
+    font: bold $detail-size $family-sans;
+    font-weight: 900;
+    text-decoration: none;
+    color: $LINK-COLOR;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: color $TRANSITION-PERIOD linear;
+
+    &:visited {
+      color: $LINK-COLOR-VISITED;
+    }
+
+    &:hover {
+      color: $LINK-COLOR-HOVER;
+    }
+  }
+
+  #navbar {
+    a {
+      font-size: $menu-link-mobile;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: $MENU;
+
+      &:visited {
+        color: $MENU;
+      }
+
+      &:hover {
+        color: $MENU-HOVER;
+      }
+
+      @include media-query(THREE) {
+        font-size: $menu-link-desktop;
+      }
+    }
+
+    #nav-home {
+      font-size: $menu-title-size;
+    }
+
+  }
+
+  #post {
+    .content-title {
+      font: bold $project-title-size $family-sans;
+      color: $TITLE-COLOR;
+    }
+
+    .align-right {
+      text-align: right;
+      -webkit-margin-before: 1em;
+      -webkit-margin-after: 1em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px;
+    }
+  }
+
+  code {
+    white-space: pre;
+    background-color: #000;
+    color: #0f0;
+    @include media-query(THREE) {
+      font-size: $text-size;
+    }
+  }
+
+  #post-list {
+    .post-title-container {
+      font: normal $home-title-size $family-sans;
+      text-decoration: none;
+      cursor: pointer;
+      color: $TITLE-COLOR;
+      letter-spacing: 0.04em;
+
+      .post-title {
+        font-weight: 900;
+      }
+
+      .post-date {
+        font-size: $detail-size;
+        font-weight: 100;
+        letter-spacing: normal;
+        text-transform: none;
+      }
+    }
+  }
+
+  .social-icon a {
+    font-size: 2.2rem;
+    @include media-query(TWO) {
+      font-size: 3rem;
+    }
+  }
+}
