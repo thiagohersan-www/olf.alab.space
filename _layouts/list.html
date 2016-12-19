@@ -11,15 +11,16 @@
         {% for post in site.posts %}
           {% if page.category == 'all' or post.categories contains page.category %}
             {% unless post.category contains 'draft' %}
-              <a class="post-list-item" href="{{ post.url }}">
-                <div class="post-image-container">
-                  {% assign daymonthyear = post.date | date: "%d-%b-%Y" %}
-                  <div class="post-header">{{ daymonthyear }}</div>
-                  <div class="post-image">
-                    {% assign assets = "/assets" | append: post.url | replace: "/post/", "/posts/" %}
-                    <img src="{{ assets }}cover.jpg" alt="{{ post.title }}" title="{{ post.title }}">
-                    <div class="post-title-container">{{ post.title }}</div>
-                  </div>
+              <a class="post-list-item {% cycle 'post-list-item-reverse', '' %}" href="{{ post.url }}">
+                <div class="post-image">
+                  {% assign assets = "/assets" | append: post.url | replace: "/post/", "/posts/" %}
+                  <img src="{{ assets }}cover.jpg" alt="{{ post.title }}" title="{{ post.title }}">
+                </div>
+
+                <div class="post-title-container">
+                  {% assign daymonthyear = post.date | date: "%d %B %Y" %}
+                  <div class="post-title">{{ post.title }}</div>
+                  <div class="post-date">{{ daymonthyear }}</div>
                 </div>
               </a>
             {% endunless %}
