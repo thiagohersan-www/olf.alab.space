@@ -1,9 +1,9 @@
 $BACKGROUND: rgba(32,32,32,1);
-$TEXT-BACKGROUND: rgba(222,222,222,1);
+$TEXT-BACKGROUND: rgba(255,255,255,1);
 
 $TEXT-BASE: rgba(255,255,255,1);
 $TITLE-COLOR: darken($TEXT-BASE, 70%);
-$TEXT-COLOR: darken($TEXT-BASE, 10%);
+$TEXT-COLOR: darken($TEXT-BASE, 80%);
 
 $LINK-COLOR: rgba(64,144,254,1);
 $LINK-COLOR-VISITED: $LINK-COLOR;
@@ -26,14 +26,14 @@ $TRANSITION-PERIOD: 0.2s;
 
 $one_column: (1 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
 $two_columns: (2 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
-$three_columns: (3 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
-$list_four_columns: (4 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
+$desktop_width: (3 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
+$three_columns: (4 * $COLUMN-WIDTH) + (2 * $COLUMN-HORIZONTAL-BORDER);
 
 @mixin media-query($canvas) {
   @if $canvas == TWO {
    @media only screen and (min-width: $two_columns) { @content; }
   }
   @else if $canvas == THREE {
-   @media only screen and (min-width: $three_columns) { @content; }
+   @media only screen and (min-width: $desktop_width) { @content; }
   }
 }

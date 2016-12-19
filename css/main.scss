@@ -105,6 +105,7 @@ body {
 
 #post {
   width: 100%;
+  background-color: $TEXT-BACKGROUND;
 
   @include media-query(THREE) {
     max-width: $three_columns;
@@ -142,7 +143,7 @@ body {
   width: 100%;
 
   @include media-query(THREE) {
-    max-width: $list_four_columns;
+    max-width: $three_columns;
   }
 
   .post-list-item {
@@ -203,7 +204,7 @@ body {
       width: 50%;
     }
 
-    background-color: #fff;
+    background-color: $TEXT-BACKGROUND;
     
     .post-date {
       border-top: 2px solid #000;
