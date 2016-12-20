@@ -107,10 +107,13 @@ body {
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 5% 7%;
+  padding: 60px 7%;
   background-color: $TEXT-BACKGROUND;
   margin-bottom: $MENU-VERTICAL-MARGIN;
 
+  .post-date {
+    margin: 32px 0;
+  }
   .post-subtitle {
     margin: 32px 0;
   }
