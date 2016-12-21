@@ -3,6 +3,7 @@ title: 'Ob_ject and Ob_serve'
 header: /assets/posts/ob-ject-and-ob-serve/obob11.jpg
 date: 2016-02-11T12:00:51+00:00
 categories: event
+swipebox: obob
 ---
 We’re a group of artists, technologists and researchers, loosely working under the name Object Liberation Front, who get together to discuss non-anthropocentric Artificial Intelligence and its implications to the social imaginary.
 

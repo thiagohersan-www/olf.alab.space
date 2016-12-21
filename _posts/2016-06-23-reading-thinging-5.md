@@ -4,6 +4,7 @@ subtitle: 'On emotional labour, private life, art and politics'
 header: /assets/posts/reading-thinging-5/rt505.jpg
 date: 2016-06-23T13:36:25+00:00
 categories: event rt
+swipebox: rt5
 ---
 For this session we looked at how how empathy and emotion are used to blur the boundaries between the personal and the political, because after all, the personal is political and politics is personal.
 

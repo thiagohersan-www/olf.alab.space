@@ -4,6 +4,7 @@ subtitle: 'On Reflection, Refraction and Diffraction'
 header: /assets/posts/reading-thinging-1/rt104.jpg
 date: 2015-12-16T23:46:57+00:00
 categories: event rt
+swipebox: rt1
 ---
 The first Reading and Thinging session considered themes of image, spectacle and technology within the [Follow](http://www.fact.co.uk/follow) exhibition through an exploration of phenomenas of light and vision; in particular the difference between reflection, refraction and diffraction.
 

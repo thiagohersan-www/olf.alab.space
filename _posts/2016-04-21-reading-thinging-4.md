@@ -4,6 +4,7 @@ subtitle: 'On Technoxamanism and Technomagic'
 header: /assets/posts/reading-thinging-4/rt401.jpg
 date: 2016-04-21T18:28:34+00:00
 categories: event rt
+swipebox: rt40
 ---
 As a continuation from last session's discussion of the environment and post-human networks, we present Technoshamanism: the openly-defined mix of technology, networks, nature, indigenous culture and ancestral knowledge. The term itself will mean different things to different people, but the common theme is that there is pre-digital (and ancestral/ancient) technology that should be recognized as Technology, and understood in contemporary terms.
 
