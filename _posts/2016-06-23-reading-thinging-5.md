@@ -12,4 +12,6 @@ Are we enslaved to the network to the point of becoming brains without bodies? H
 
 Readings for this session included texts by Bifo Berardi ([Heroes](http://tmp.thiagohersan.com/tmp/OLF-RT/Berardi-heroes-mass-murder-and-suicide-INTRO.pdf), [The Soul at Work](http://tmp.thiagohersan.com/tmp/OLF-RT/Berardi-the-soul-at-work-INTRO.pdf), [Dyst-irony](http://tmp.thiagohersan.com/tmp/OLF-RT/Berardi-Dyst-irony.pdf)), and videos by [Nina Power](https://www.youtube.com/watch?v=53nt1CgMtgo) and Erica Scourti ([Negative Docs](https://vimeo.com/152587831), [Life in AdWords](https://vimeo.com/album/1944360)).
 
+During the discussion, we broke and re-assembled personal ceramic objects in order to better understand the concepts of cognitive capitalism, emotional labour and the role of anger in politics as presented in the texts.
+
 <audio controls src="https://ou.lc/rt-player/data/reading_thinging_5.mp3"></audio>

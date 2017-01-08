@@ -10,4 +10,6 @@ As a continuation from last session's discussion of the environment and post-hum
 
 Readings for this session included texts by [Fabiane M. Borges](http://www.modspil.dk/docs/technoshamanism_fabi_borges.pdf), [Pedro Soler](http://root.ps/download/tecnomagxs/Soler_tecnomagxs_eng.pdf), and audio by [David Hendy](https://beta.prx.org/stories/100722) and [Matt Thompson](https://beta.prx.org/stories/101979).
 
+During the discussion session we also de-soldered old electronic equipment to free the components from their broken boards.
+
 <audio controls src="https://ou.lc/rt-player/data/reading_thinging_4.mp3"></audio>

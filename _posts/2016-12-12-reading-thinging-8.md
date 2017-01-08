@@ -6,18 +6,19 @@ date: 2016-12-12T13:20:53+00:00
 categories: event rt
 swipebox: rt8
 ---
-Readings
+Readings included:
+- Syntegrity - Stafford Beer - [Preview](https://en.wikipedia.org/wiki/Syntegrity)
+- Managerial Cybernetics - Stafford Beer - [video](https://www.youtube.com/watch?v=XbcBWdeIcyY&feature=youtu.be)
 
-1. Syntegrity - Stafford Beer - [Preview](https://en.wikipedia.org/wiki/Syntegrity)
-2. Managerial Cybernetics Stafford Beer [video](https://www.youtube.com/watch?v=XbcBWdeIcyY&feature=youtu.be)
+*Thinging* involved building icosahedrons and tetrahedrons out of sticks to visualize/guide the structure of conversations.
 
 From John:
 
-Hi everyone, thanks for this evening. I think in the short time we had we managed to produce both both synergy and structural integrity. Tensegraty and syntegraty!
+Hi everyone, thanks for this evening. I think in the short time we had we managed to produce both synergy and structural integrity. Tensegrity and syntegrity!
 
 So people know what they missed, and so we remember:
 
-We built an Icosahedron — 30 edges, twelve points, 18 faces (I think) — thanks to Alex for the sticks. We then built a much smaller tetrahedron to structure our six-person discussion.
+We built an icosahedron — 30 edges, twelve points, 18 faces (I think) — thanks to Alex for the sticks. We then built a much smaller tetrahedron to structure our six-person discussion.
 
 Following the instructions in Chapter 2 of Stafford Beer’s Beyond Dispute: The invention of Team Syntegrity (1994), our initial statements of importance, which we jostled and then auctioned, were
 
