@@ -8,7 +8,18 @@
 
 body {
   background: $BACKGROUND;
-  margin: 8px 8px;
+  margin: 0 8px 8px;
+}
+
+#navbar-container {
+  display: block;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 8px;
+  right: 0;
+  z-index: 100;
+  background-color: $BACKGROUND;
 }
 
 #navbar {
@@ -17,18 +28,15 @@ body {
   -webkit-flex-direction: column;
   flex-direction: column;
 
+  padding: 8px 0;
+
   @include media-query(THREE) {
     -webkit-flex-direction: row;
     flex-direction: row;
     -webkit-justify-content: space-between;
     justify-content: space-between;
-  }
 
-  margin-bottom: $MENU-VERTICAL-MARGIN;
-
-  @include media-query(THREE) {
-    margin-top: $MENU-VERTICAL-MARGIN;
-    padding: 0 $MENU-HORIZONTAL-ITEM-SPACING;
+    padding: $MENU-VERTICAL-MARGIN $MENU-HORIZONTAL-ITEM-SPACING;
     a+a {
       padding-left: $MENU-HORIZONTAL-ITEM-SPACING;
     }
@@ -65,6 +73,8 @@ body {
   flex-direction: column;
   -webkit-align-items: center;
   align-items: center;
+
+  padding-top: $MENU-HEIGHT;
   margin: 0 $PAGE-LATERAL-SPACE/2;
   @include media-query(THREE) {
     margin: 0 $PAGE-LATERAL-SPACE;
