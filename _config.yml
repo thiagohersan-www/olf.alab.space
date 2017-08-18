@@ -3,8 +3,8 @@ title: OLF
 subtitle: Object Liberation Front
 
 # URL
-url: http://olf.space
-baseurl: /
+url: http://olf.alab.space
+baseurl: ''
 permalink: post/:title/
 
 # Build settings
