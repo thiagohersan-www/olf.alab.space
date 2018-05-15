@@ -8,7 +8,11 @@
   <div id="post">
     <div class="post-title">{{ page.title }}</div>
     <div class="post-date">
-      {% if page.artist %} {{ page.artist }} {% else %} {{ page.date | date: "%d %B %Y" }} {% endif %}
+      {% if page.artist %}
+        {{ page.artist }}
+      {% elsif page.date %}
+        {{ page.date | date: "%d %B %Y" }}
+      {% endif %}
     </div>
     {% if page.subtitle %}
       <div class="post-subtitle">

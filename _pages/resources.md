@@ -2,7 +2,7 @@
 layout: post
 title: Resources
 subtitle: Useful Links
-date: 2016-01-01T01:50:19
+permalink: '/resources'
 cover: /assets/posts/ob-ject-and-ob-serve/cover.jpg
 ---
 **Stuff**

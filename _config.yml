@@ -6,6 +6,7 @@ subtitle: Object Liberation Front
 url: http://olf.alab.space
 baseurl: ''
 permalink: post/:title/
+include: ['_pages']
 
 # Build settings
 markdown: kramdown
@@ -17,6 +18,12 @@ defaults:
     scope:
       path: ""
       type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
     values:
       layout: "post"
 
